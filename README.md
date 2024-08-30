@@ -6,17 +6,17 @@ To use this module in your project, run:
 
 ```bash
 # using npm
-npm i amazon-product-scraper
+npm i amazon-product-data-fetcher
 # or using yarn
-yarn add amazon-product-scraper
+yarn add amazon-product-data-fetcher
 # or using pnpm
-pnpm i amazon-product-scraper
+pnpm i amazon-product-data-fetcher
 ```
 
 ## Usage
 
 ```js
-import AmazonScraperManager from 'amazon-product-scraper';
+import AmazonScraperManager from 'amazon-product-data-fetcher';
 
 const AmazonProductScraper = new AmazonScraperManager({
     amazonRegion: 'co.uk', // You can enter Amazon domain extensions ex: co.uk, ca, mx, com.tr | default: com
