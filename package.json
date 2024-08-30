@@ -1,0 +1,29 @@
+{
+  "author": "Atakan75",
+  "name": "amazon-product-scraper",
+  "version": "0.0.1",
+  "description": "Simple Amazon product data fetcher/scraper.",
+  "keywords": [
+    "amazon",
+    "amazon scraper",
+    "amazon product data",
+    "amazon product data scraper"
+  ],
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Atakan75/amazon-product-scraper"
+  },
+  "dependencies": {
+    "ocr-space-api-wrapper": "^2.3.0",
+    "puppeteer": "^21.6.1",
+    "puppeteer-cluster": "^0.23.0",
+    "puppeteer-core": "^22.1.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
