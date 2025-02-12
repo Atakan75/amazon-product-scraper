@@ -1,7 +1,7 @@
 {
   "author": "Atakan75",
-  "name": "amazon-product-scraper",
-  "version": "0.0.1",
+  "name": "amazon-product-data-fetcher",
+  "version": "0.0.2",
   "description": "Simple Amazon product data fetcher/scraper.",
   "keywords": [
     "amazon",
@@ -9,10 +9,10 @@
     "amazon product data",
     "amazon product data scraper"
   ],
-  "main": "index.js",
+  "main": "./src/index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "release": "npm publish --access public && git push --follow-tags"
   },
   "repository": {
     "type": "git",

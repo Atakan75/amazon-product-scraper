@@ -1,0 +1,5 @@
+/index.js
+yarn.lock
+package-lock.json
+amazon-product-data.json
+node_modules/
